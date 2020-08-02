@@ -76,9 +76,8 @@ Any user who visits the room-id/url after both players have started, will become
 4. Moves made are final and cannot be undone. 
 5. Movement is restricted to 1 square per move.
 6. There are a total of 5 rounds which constitute 1 set 
-7. And 5 turns per round total.
-8. The pins and the board will reset after each round. 
-9. User with the most points after a set, wins. 
+7. The pins and the board will reset after each round. 
+8. User with the most points after a set, wins. 
 
 
 
