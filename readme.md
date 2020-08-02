@@ -8,50 +8,7 @@
 - Reusable Code
 - Understand scopes and garbage collection in the browser
 
-
-
-## Code 
-
-**We are looking for:**
-
-- custom state management  implementation 
-- readability
-- decoupled & reusable code 
-- usage of both built-in and/or custom hooks
-
-**You can use 1 core utility library +  1 framework library**
-
-- React / React Native
-- No 3rd party tools such as Redux, Recoil. 
-- Ramda / Lodash / Underscore / ETC
-
-BDD tests are not required. But you are free to implement them if you see fit. 
-
-
-
-## Visual
-
-- No CSS pre processers
-- CSS Module Level 4 (Experimental) / Anything that the latest Chrome version supports natively
-- Fully responsive
-
-
-
-## Design Guide
-
-- Min Tile Size : 100 px
-- Max Tile Size: 150 px
-- Number of tiles on the screen at any one time, is directly proportional to the available viewport space.
-
-The following screenshots may give you a better idea of the concept, but please feel free to explore further. 
-
-
-
-|      |      |
-| ---- | ---- |
-|    ![mobile@0,5x](md-assets/mobile@0,5x.png)  |   ![desktop](md-assets/desktop.png)   |
-
-
+-----
 
 # About The Game
 
@@ -80,7 +37,6 @@ Any user who visits the room-id/url after both players have started, will become
 8. User with the most points after a set, wins. 
 
 
-
 ### Bonus Section
 
 *These items are not required, but do feel free to implement them if needed.*
@@ -92,6 +48,47 @@ Any user who visits the room-id/url after both players have started, will become
 - BDD tests
 - Reports
 - user accounts
+
+## Code 
+
+**We are looking for:**
+
+- Custom state management & implementation 
+- Readability
+- Decoupled & reusable code 
+- Usage of both built-in and/or custom hooks
+
+**You can use 1 core utility library +  1 framework library**
+
+- React / React Native
+- 1 utility library Ramda, Lodash, Underscore etc.. is allowed
+- No 3rd party state management tools such as Redux, Recoil. 
+
+BDD tests are not required. But you are free to implement them if you see fit. 
+
+
+## Visual
+
+- No CSS pre processers
+- CSS Module Level 4 (Experimental) / Anything that the latest Chrome version supports natively
+- Fully responsive
+
+
+
+## Design Guide
+
+- Min Tile Size : 100 px
+- Max Tile Size: 150 px
+- Number of tiles on the screen at any one time, is directly proportional to the available viewport space.
+
+The following screenshots may give you a better idea of the concept, but please feel free to explore further. 
+
+
+
+|      |      |
+| ---- | ---- |
+|    ![mobile@0,5x](md-assets/mobile@0,5x.png)  |   ![desktop](md-assets/desktop.png)   |
+
 
 
 
