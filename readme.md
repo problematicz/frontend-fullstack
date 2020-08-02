@@ -57,6 +57,14 @@ The following screenshots may give you a better idea of the concept, but please 
 
 This is a 2 player, real-time game, where player move a pin around a grid  and seek to collide with the other player to win.
 
+The user controls their pin using the keyboard's arrow keys. 
+
+`LEFT` `RIGHT` `UP` `DOWN`
+
+
+
+Each player will play on their own web browser or mobile phone and they should be able to see the other players moves on their grid. 
+
 
 
 ### Rules of play
@@ -81,6 +89,7 @@ This is a 2 player, real-time game, where player move a pin around a grid  and s
 - Logging
 - BDD tests
 - Reports
+- user accounts
 
 
 
