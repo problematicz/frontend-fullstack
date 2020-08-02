@@ -61,21 +61,24 @@ The user controls their pin using the keyboard's arrow keys.
 
 `LEFT` `RIGHT` `UP` `DOWN`
 
-
-
 Each player will play on their own web browser or mobile phone and they should be able to see the other players moves on their grid. 
 
+Each game is considered a room, and only begins after 2 players have joined. The first player, will create a room, and send the id/url of the room to the other player, who can then join the room. 
 
+Any user who visits the room-id/url after both players have started, will become a spectator and can only watch the current game. 
 
 ### Rules of play
 
 1. Squares which were occupied in the previous N moves are
    out of bounds for the next move. (N starts at 5 in round 1, and decrements by one for each consecutive rounds)
 2. Players start on opposite sides of the board
-3. Moves made are final and cannot be undone. 
-4. Movement is restricted to 1 square per move.
-5. There are a total of 5 rounds which constitute 1 set 
-6. User with the most points after a set, wins. 
+3. Goal of a game is to collide with the other player to win 1 point.
+4. Moves made are final and cannot be undone. 
+5. Movement is restricted to 1 square per move.
+6. There are a total of 5 rounds which constitute 1 set 
+7. And 5 turns per round total.
+8. The pins and the board will reset after each round. 
+9. User with the most points after a set, wins. 
 
 
 
