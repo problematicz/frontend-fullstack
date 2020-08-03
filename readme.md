@@ -12,7 +12,7 @@
 
 # About The Game
 
-This is a 2 player, real-time game, where player move a pin around a grid  and seek to collide with the other player to win.
+This is a 2 player, real-time game, where players move a pin around a grid  and seek to collide with the other player to win.
 
 The user controls their pin using the keyboard's arrow keys. 
 
