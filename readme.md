@@ -26,22 +26,21 @@ Any user who visits the room-id/url after both players have started, will become
 
 ### Rules of play
 
-1. Squares which were occupied in the previous N moves are
-   out of bounds for the next move. (N starts at 5 in round 1, and decrements by one for each consecutive rounds)
-2. Players start on opposite sides of the board
-3. Goal of a game is to collide with the other player to win 1 point.
-4. Moves made are final and cannot be undone. 
-5. Movement is restricted to 1 square per move.
-6. There are a total of 5 rounds which constitute 1 set 
-7. The pins and the board will reset after each round. 
-8. User with the most points after a set, wins. 
+1. Players start on opposite sides of the board (player tile can be whatever style you wish)
+2. Goal of a game is to collide with the other player to win 1 point.
+3. Moves made are final and cannot be undone. 
+4. Movement is restricted to 1 square per move.
+5. There are a total of 5 rounds which constitute 1 set 
+6. The pins and the board will reset after each round. 
+7. User with the most points after a set, wins. 
 
 
 ### Bonus Section
 
 *These items are not required, but do feel free to implement them if needed.*
 
-- Network failure on either side, does not end a game. 
+- Network failure on either side, does not end a game.
+- Digitally signed data exchange.
 - Automated replay of previous game using recorded stats. 
 - Statistics
 - Logging
@@ -53,7 +52,8 @@ Any user who visits the room-id/url after both players have started, will become
 
 **We are looking for:**
 
-- Custom state management & implementation 
+- Custom state management & implementation (including encryption)
+- Encryption of data exchange
 - Readability
 - Decoupled & reusable code 
 - Usage of both built-in and/or custom hooks
@@ -63,6 +63,7 @@ Any user who visits the room-id/url after both players have started, will become
 - React / React Native
 - 1 utility library Ramda, Lodash, Underscore etc.. is allowed
 - No 3rd party state management tools such as Redux, Recoil. 
+- You are free to use a browser based crypto library if you need to.
 
 BDD tests are not required. But you are free to implement them if you see fit. 
 
@@ -79,7 +80,8 @@ BDD tests are not required. But you are free to implement them if you see fit.
 
 - Min Tile Size : 100 px
 - Max Tile Size: 150 px
-- Number of tiles on the screen at any one time, is directly proportional to the available viewport space.
+- Player tile can be any design you want.
+- Number of tiles on the screen at any one time, is directly proportional to the available viewport space. (Assume that the user will not change viewport size during the game)
 
 The following screenshots may give you a better idea of the concept, but please feel free to explore further. 
 
